@@ -5,7 +5,7 @@ import { IoMailOutline, IoLockClosedOutline, IoPersonOutline } from 'react-icons
 const CreateAccount = () => {
     return (
         <main className="min-h-screen flex items-center justify-center bg-eshiksha-dark text-white p-4">
-            <div className="w-full max-w-md bg-gray-800 p-8 sm:p-10 rounded-xl shadow-2xl border-t-4 border-eshiksha-orange">
+            <div className="w-full max-w-md bg-gray-800 p-8 sm:p-10 rounded-xl shadow-2xl border-4 border-eshiksha-orange">
                 <h1 className="text-3xl font-bold text-center text-eshiksha-orange mb-2">
                     Start Learning Today
                 </h1>
