@@ -1,16 +1,46 @@
-# React + Vite
+🎓 e-Shiksha: Virtual Skills for Everyone
+🌐 Overview
+e-Shiksha is a modern, responsive e-learning platform built with React and Tailwind CSS. It is designed to offer high-quality, professional development courses with a dark, high-contrast, and aesthetically pleasing interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project uses React Router DOM for navigation and is fully responsive (mobile-friendly).
 
-Currently, two official plugins are available:
+✨ Key Features
+Dark Theme: Uses a custom black and orange color palette (eshiksha-dark, eshiksha-orange) for high visibility.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive Design: Utilizes Tailwind CSS utility classes (sm, lg) for a seamless experience on all devices.
 
-## React Compiler
+Sticky Navbar: The navigation bar has a blur effect when scrolling down.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Dynamic Course Catalog: Courses are rendered dynamically with unique images and information.
 
-## Expanding the ESLint configuration
+Dedicated Pages: Includes Home, Courses, Pricing, About, Contact, Sign In, and Create Account.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚙️ Technology Stack
+Framework: React (Vite)
+
+Styling: Tailwind CSS
+
+Routing: React Router DOM
+
+Icons: React Icons (react-icons)
+
+Language: JavaScript (ES6+)
+
+🚀 Getting Started
+Follow these steps to get a copy of the project up and running on your local machine.
+
+Prerequisites
+You need to have Node.js and npm (or yarn/pnpm) installed.
+
+Installation
+Clone the Repository:
+
+
+
+git clone [Your Repository URL Here]
+cd e-shiksha
+Install Dependencies:
+npm install
+
+Run the Development Server:
+npm run dev
