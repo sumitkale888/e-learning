@@ -1,0 +1,11 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add custom body styles if needed, but the dark background is set in App.jsx */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
